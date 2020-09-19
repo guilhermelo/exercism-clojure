@@ -1,0 +1,345 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - File URLs in stacktrace frames are peekable and clickable.
+clj::user=> 
+; Execution error (UnsupportedOperationException) at armstrong-numbers/eval7686 (form-init13948794126841048779.clj:6).
+; count not supported on this type: Long
+[{:file "RT.java" :line 667 :method "countFrom" :flags [:java]}
+ {:file "RT.java" :line 639 :method "count" :flags [:java]}
+ {:file "file:/home/guilherme/exercism/clojure/armstrong-numbers/src/armstrong_numbers.clj:6" :fn "eval7686"  :method "invokeStatic" :flags [:project :repl :clj]}
+ {:file "file:/home/guilherme/exercism/clojure/armstrong-numbers/src/armstrong_numbers.clj:6" :fn "eval7686"  :method "invoke" :flags [:dup :project :repl :clj]}
+ {:file "Compiler.java" :line 7176 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7131 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:3214" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:3210" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:414" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:414" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:435" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:435" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:345" :fn "repl"  :method "doInvoke" :flags [:clj]}
+ {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:79" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:55" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:142" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/session.clj:171" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/session.clj:170" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "Thread.java" :line 834 :method "run" :flags [:java]}]
+clj::armstrong-numbers=> 
+; Syntax error compiling at (armstrong_numbers.clj:5:17).
+; No such namespace: s
+[{:file "Compiler.java" :line 6808 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6745 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 3820 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7108 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 38 :method "access$300" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6384 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7106 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7094 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6745 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 6120 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 5467 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 4029 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7104 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7094 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 38 :method "access$300" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 596 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7106 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6745 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 7180 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7131 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:3214" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:3210" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:414" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:414" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:435" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:435" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:345" :fn "repl"  :method "doInvoke" :flags [:clj]}
+ {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:79" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:55" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:142" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/session.clj:171" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/session.clj:170" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "Thread.java" :line 834 :method "run" :flags [:java]}]
+clj::armstrong-numbers=> 
+; Execution error (IllegalStateException) at armstrong-numbers/eval7688 (form-init13948794126841048779.clj:10).
+; Attempting to call unbound fn: #'armstrong-numbers/armstrong?
+[{:file "Var.java" :line 45 :method "throwArity" :flags [:java]}
+ {:file "AFn.java" :line 32 :method "invoke" :flags [:java]}
+ {:file "file:/home/guilherme/exercism/clojure/armstrong-numbers/src/armstrong_numbers.clj:10" :fn "eval7688"  :method "invokeStatic" :flags [:project :repl :clj]}
+ {:file "file:/home/guilherme/exercism/clojure/armstrong-numbers/src/armstrong_numbers.clj:10" :fn "eval7688"  :method "invoke" :flags [:dup :project :repl :clj]}
+ {:file "Compiler.java" :line 7176 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7131 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:3214" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:3210" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:414" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:414" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:435" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:435" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:345" :fn "repl"  :method "doInvoke" :flags [:clj]}
+ {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:79" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:55" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:142" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/session.clj:171" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/session.clj:170" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "Thread.java" :line 834 :method "run" :flags [:java]}]
+clj::armstrong-numbers=> 
+; Syntax error compiling at (armstrong_numbers.clj:5:17).
+; No such namespace: s
+; Execution error (IllegalStateException) at armstrong-numbers/eval7690 (form-init13948794126841048779.clj:11).
+; Attempting to call unbound fn: #'armstrong-numbers/armstrong?
+[{:file "Var.java" :line 45 :method "throwArity" :flags [:java]}
+ {:file "AFn.java" :line 32 :method "invoke" :flags [:java]}
+ {:file "file:/home/guilherme/exercism/clojure/armstrong-numbers/src/armstrong_numbers.clj:11" :fn "eval7690"  :method "invokeStatic" :flags [:project :repl :clj]}
+ {:file "file:/home/guilherme/exercism/clojure/armstrong-numbers/src/armstrong_numbers.clj:11" :fn "eval7690"  :method "invoke" :flags [:dup :project :repl :clj]}
+ {:file "Compiler.java" :line 7176 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7131 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:3214" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:3210" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:414" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:414" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:435" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:435" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:345" :fn "repl"  :method "doInvoke" :flags [:clj]}
+ {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:79" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:55" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:142" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/session.clj:171" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/session.clj:170" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "Thread.java" :line 834 :method "run" :flags [:java]}]
+clj::armstrong-numbers=> 
+0
+clj::armstrong-numbers=> 
+["0"]
+clj::armstrong-numbers=> 
+[#function[clojure.core/num]]
+clj::armstrong-numbers=> 
+1
+clj::armstrong-numbers=> 
+; Syntax error (ClassNotFoundException) compiling at (armstrong_numbers.clj:7:26).
+; clojure.math.numeric-tower
+[{:file "Compiler.java" :line 7114 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6745 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 1020 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7106 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6745 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 7101 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6745 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 6120 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 5467 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 4029 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7104 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7094 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6745 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 3888 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7108 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 38 :method "access$300" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6384 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7106 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7094 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6745 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 6120 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 5467 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 4029 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7104 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7094 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 38 :method "access$300" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 596 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7106 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6789 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6745 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 7180 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7131 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:3214" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:3210" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:414" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:414" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:435" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:435" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:345" :fn "repl"  :method "doInvoke" :flags [:clj]}
+ {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:79" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:55" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:142" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/session.clj:171" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/session.clj:170" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "Thread.java" :line 834 :method "run" :flags [:java]}]
+clj::armstrong-numbers=> 
+16
+clj::armstrong-numbers=> 
+(2 2 2 2)
+clj::armstrong-numbers=> 
+false
+clj::armstrong-numbers=> 
+false
+clj::armstrong-numbers=> 
+"9"
+clj::armstrong-numbers=> 
+; Execution error (ClassCastException) at armstrong-numbers/eval7727$fn (form-init13948794126841048779.clj:16).
+; class java.lang.String cannot be cast to class java.lang.Number (java.lang.String and java.lang.Number are in module java.base of loader 'bootstrap')
+[{:file "Numbers.java" :line 153 :method "add" :flags [:java]}
+ {:file "file:/home/guilherme/exercism/clojure/armstrong-numbers/src/armstrong_numbers.clj:16" :fn "eval7727/fn"  :method "invoke" :flags [:project :repl :clj]}
+ {:file "PersistentVector.java" :line 329 :method "reduce" :flags [:java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:6823" :fn "reduce"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:6810" :fn "reduce"  :method "invoke" :flags [:clj]}
+ {:file "file:/home/guilherme/exercism/clojure/armstrong-numbers/src/armstrong_numbers.clj:15" :fn "eval7727"  :method "invokeStatic" :flags [:project :repl :clj]}
+ {:file "file:/home/guilherme/exercism/clojure/armstrong-numbers/src/armstrong_numbers.clj:15" :fn "eval7727"  :method "invoke" :flags [:dup :project :repl :clj]}
+ {:file "Compiler.java" :line 7176 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7131 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:3214" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:3210" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:414" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:414" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:435" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:435" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:345" :fn "repl"  :method "doInvoke" :flags [:clj]}
+ {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:79" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:55" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:142" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/session.clj:171" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/session.clj:170" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "Thread.java" :line 834 :method "run" :flags [:java]}]
+clj::armstrong-numbers=> 
+"1"
+"5"
+; Execution error (ClassCastException) at armstrong-numbers/eval7731$fn (form-init13948794126841048779.clj:18).
+; class java.lang.String cannot be cast to class java.lang.Number (java.lang.String and java.lang.Number are in module java.base of loader 'bootstrap')
+[{:file "Numbers.java" :line 153 :method "add" :flags [:java]}
+ {:file "file:/home/guilherme/exercism/clojure/armstrong-numbers/src/armstrong_numbers.clj:18" :fn "eval7731/fn"  :method "invoke" :flags [:project :repl :clj]}
+ {:file "PersistentVector.java" :line 329 :method "reduce" :flags [:java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:6823" :fn "reduce"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:6810" :fn "reduce"  :method "invoke" :flags [:clj]}
+ {:file "file:/home/guilherme/exercism/clojure/armstrong-numbers/src/armstrong_numbers.clj:15" :fn "eval7731"  :method "invokeStatic" :flags [:project :repl :clj]}
+ {:file "file:/home/guilherme/exercism/clojure/armstrong-numbers/src/armstrong_numbers.clj:15" :fn "eval7731"  :method "invoke" :flags [:dup :project :repl :clj]}
+ {:file "Compiler.java" :line 7176 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7131 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:3214" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:3210" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:414" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:414" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:435" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:435" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:345" :fn "repl"  :method "doInvoke" :flags [:clj]}
+ {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:79" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:55" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:142" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/session.clj:171" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/session.clj:170" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "Thread.java" :line 834 :method "run" :flags [:java]}]
+clj::armstrong-numbers=> 
+"X:" "1"
+"ACC:" "5"
+; Execution error (ClassCastException) at armstrong-numbers/eval7735$fn (form-init13948794126841048779.clj:18).
+; class java.lang.String cannot be cast to class java.lang.Number (java.lang.String and java.lang.Number are in module java.base of loader 'bootstrap')
+[{:file "Numbers.java" :line 153 :method "add" :flags [:java]}
+ {:file "file:/home/guilherme/exercism/clojure/armstrong-numbers/src/armstrong_numbers.clj:18" :fn "eval7735/fn"  :method "invoke" :flags [:project :repl :clj]}
+ {:file "PersistentVector.java" :line 329 :method "reduce" :flags [:java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:6823" :fn "reduce"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:6810" :fn "reduce"  :method "invoke" :flags [:clj]}
+ {:file "file:/home/guilherme/exercism/clojure/armstrong-numbers/src/armstrong_numbers.clj:15" :fn "eval7735"  :method "invokeStatic" :flags [:project :repl :clj]}
+ {:file "file:/home/guilherme/exercism/clojure/armstrong-numbers/src/armstrong_numbers.clj:15" :fn "eval7735"  :method "invoke" :flags [:dup :project :repl :clj]}
+ {:file "Compiler.java" :line 7176 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7131 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:3214" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:3210" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:414" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:414" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:435" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:435" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:345" :fn "repl"  :method "doInvoke" :flags [:clj]}
+ {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:79" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:55" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:142" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/session.clj:171" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/session.clj:170" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "Thread.java" :line 834 :method "run" :flags [:java]}]
+clj::armstrong-numbers=> 
+"X:" 0
+"ACC:" "1"
+; Execution error (ClassCastException) at armstrong-numbers/eval7739$fn (form-init13948794126841048779.clj:18).
+; class java.lang.Long cannot be cast to class java.lang.String (java.lang.Long and java.lang.String are in module java.base of loader 'bootstrap')
+[{:file "file:/home/guilherme/exercism/clojure/armstrong-numbers/src/armstrong_numbers.clj:18" :fn "eval7739/fn"  :method "invoke" :flags [:project :repl :clj]}
+ {:file "PersistentVector.java" :line 343 :method "reduce" :flags [:java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:6827" :fn "reduce"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:6810" :fn "reduce"  :method "invoke" :flags [:clj]}
+ {:file "file:/home/guilherme/exercism/clojure/armstrong-numbers/src/armstrong_numbers.clj:15" :fn "eval7739"  :method "invokeStatic" :flags [:project :repl :clj]}
+ {:file "file:/home/guilherme/exercism/clojure/armstrong-numbers/src/armstrong_numbers.clj:15" :fn "eval7739"  :method "invoke" :flags [:dup :project :repl :clj]}
+ {:file "Compiler.java" :line 7176 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7131 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:3214" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:3210" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:414" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:414" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:435" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:435" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:345" :fn "repl"  :method "doInvoke" :flags [:clj]}
+ {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:79" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:55" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:142" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/session.clj:171" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/session.clj:170" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "Thread.java" :line 834 :method "run" :flags [:java]}]
+clj::armstrong-numbers=> 
+"X:" "1"
+"ACC:" 0
+"X:" "5"
+"ACC:" 1
+"X:" "3"
+"ACC:" 126
+153
+clj::armstrong-numbers=> 
+true
+clj::armstrong-numbers=> 

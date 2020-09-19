@@ -1,0 +1,89 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - File URLs in stacktrace frames are peekable and clickable.
+clj::user=> 
+""
+clj::reverse-string=> 
+["t" "e" "s" "t" "e"]
+nil
+clj::reverse-string=> 
+["t" "e" "s" "t" "e" " " "2"]
+nil
+clj::reverse-string=> 
+; Execution error (ClassCastException) at reverse-string/reverse-string (form-init10933194798385940003.clj:6).
+; class java.lang.String cannot be cast to class clojure.lang.IPersistentCollection (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IPersistentCollection is in unnamed module of loader 'app')
+[{:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:82" :fn "conj"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:82" :fn "conj"  :method "invoke" :flags [:dup :clj]}
+ {:file "PersistentVector.java" :line 329 :method "reduce" :flags [:java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:6823" :fn "reduce"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:6810" :fn "reduce"  :method "invoke" :flags [:clj]}
+ {:file "file:/home/guilherme/exercism/clojure/reverse-string/src/reverse_string.clj:6" :fn "reverse-string"  :method "invokeStatic" :flags [:project :repl :clj]}
+ {:file "file:/home/guilherme/exercism/clojure/reverse-string/src/reverse_string.clj:3" :fn "reverse-string"  :method "invoke" :flags [:project :repl :clj]}
+ {:file "file:/home/guilherme/exercism/clojure/reverse-string/src/reverse_string.clj:8" :fn "eval7705"  :method "invokeStatic" :flags [:project :repl :clj]}
+ {:file "file:/home/guilherme/exercism/clojure/reverse-string/src/reverse_string.clj:8" :fn "eval7705"  :method "invoke" :flags [:dup :project :repl :clj]}
+ {:file "Compiler.java" :line 7176 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7131 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:3214" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:3210" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:414" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:414" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:435" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:435" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:345" :fn "repl"  :method "doInvoke" :flags [:clj]}
+ {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:79" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:55" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:142" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/session.clj:171" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/session.clj:170" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "Thread.java" :line 834 :method "run" :flags [:java]}]
+clj::reverse-string=> 
+; Execution error (ArityException) at reverse-string/reverse-string (form-init10933194798385940003.clj:6).
+; Wrong number of args (2) passed to: reverse-string/reverse-string/fn--7718
+[{:file "AFn.java" :line 429 :method "throwArity" :flags [:java]}
+ {:file "AFn.java" :line 36 :method "invoke" :flags [:java]}
+ {:file "PersistentVector.java" :line 329 :method "reduce" :flags [:java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:6823" :fn "reduce"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:6810" :fn "reduce"  :method "invoke" :flags [:clj]}
+ {:file "file:/home/guilherme/exercism/clojure/reverse-string/src/reverse_string.clj:6" :fn "reverse-string"  :method "invokeStatic" :flags [:project :repl :clj]}
+ {:file "file:/home/guilherme/exercism/clojure/reverse-string/src/reverse_string.clj:3" :fn "reverse-string"  :method "invoke" :flags [:project :repl :clj]}
+ {:file "file:/home/guilherme/exercism/clojure/reverse-string/src/reverse_string.clj:8" :fn "eval7721"  :method "invokeStatic" :flags [:project :repl :clj]}
+ {:file "file:/home/guilherme/exercism/clojure/reverse-string/src/reverse_string.clj:8" :fn "eval7721"  :method "invoke" :flags [:dup :project :repl :clj]}
+ {:file "Compiler.java" :line 7176 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7131 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:3214" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj:3210" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:414" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:414" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:435" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:435" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/main.clj:345" :fn "repl"  :method "doInvoke" :flags [:clj]}
+ {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:79" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:55" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/interruptible_eval.clj:142" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/session.clj:171" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/home/guilherme/.m2/repository/nrepl/nrepl/0.6.0/nrepl-0.6.0.jar!/nrepl/middleware/session.clj:170" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "Thread.java" :line 834 :method "run" :flags [:java]}]
+clj::reverse-string=> 
+("2" " " "e" "t" "s" "e" "t")
+clj::reverse-string=> 
+"2 etset"
+clj::reverse-string=> 
