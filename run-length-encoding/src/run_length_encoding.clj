@@ -19,9 +19,8 @@
 (defn run-length-decode
   "decodes a run-length-encoded string"
   [cipher-text]
-  cipher-text)
-
-
-
-
-
+  (->> cipher-text
+       (re-seq #"(\d+)?(\D)")
+       (mapcat (fn [[_ times character]]
+                 (repeat (Integer/parseInt (or times "1")) character)))
+       (apply str)))
