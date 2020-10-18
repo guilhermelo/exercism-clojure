@@ -1,0 +1,242 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - File URLs in stacktrace frames are peekable and clickable.
+clj::user=> 
+("" "" "" "" "" "" "" "" "" "" "" "" "" "")
+nil
+clj::isbn-verifier=> 
+("3" "5" "9" "8" "2" "1" "5" "0" "8" "8")
+nil
+clj::isbn-verifier=> 
+("3" "5" "9" "8" "2" "1" "5" "0" "8" "8")
+("3" "5" "9" "8" "2" "1" "5" "0" "7" "X")
+nil
+clj::isbn-verifier=> 
+true
+clj::isbn-verifier=> 
+true
+clj::isbn-verifier=> 
+true
+clj::isbn-verifier=> 
+true
+clj::isbn-verifier=> 
+"Lista: " ("3" "5" "9" "8" "2" "1" "5" "0" "8" "9")
+"Total: " 0
+"Multiplicador: " 10
+true
+clj::isbn-verifier=> 
+"Lista: " ("3" "5" "9" "8" "2" "1" "5" "0" "8" "9")
+"Total: " 0
+"Multiplicador: " 10
+true
+clj::isbn-verifier=> 
+"Lista: " ("3" "5" "9" "8" "2" "1" "5" "0" "8" "9")
+"Total: " 0
+"Multiplicador: " 10
+true
+clj::isbn-verifier=> 
+"Lista: " ("3" "5" "9" "8" "2" "1" "5" "0" "8" "9")
+"Total: " 0
+"Multiplicador: " 10
+"Empty? " ()
+true
+clj::isbn-verifier=> 
+"Lista: " ("3" "5" "9" "8" "2" "1" "5" "0" "8" "9")
+"Total: " 0
+"Multiplicador: " 10
+"É letra: " false
+"Lista: " ("5" "9" "8" "2" "1" "5" "0" "8" "9")
+"Total: " 30
+"Multiplicador: " 9
+"É letra: " false
+"Lista: " ("9" "8" "2" "1" "5" "0" "8" "9")
+"Total: " 75
+"Multiplicador: " 8
+"É letra: " false
+"Lista: " ("8" "2" "1" "5" "0" "8" "9")
+"Total: " 147
+"Multiplicador: " 7
+"É letra: " false
+"Lista: " ("2" "1" "5" "0" "8" "9")
+"Total: " 203
+"Multiplicador: " 6
+"É letra: " false
+"Lista: " ("1" "5" "0" "8" "9")
+"Total: " 215
+"Multiplicador: " 5
+"É letra: " false
+"Lista: " ("5" "0" "8" "9")
+"Total: " 220
+"Multiplicador: " 4
+"É letra: " false
+"Lista: " ("0" "8" "9")
+"Total: " 240
+"Multiplicador: " 3
+"É letra: " false
+"Lista: " ("8" "9")
+"Total: " 240
+"Multiplicador: " 2
+"É letra: " false
+"Lista: " ("9")
+"Total: " 256
+"Multiplicador: " 1
+"É letra: " false
+"Lista: " ()
+"Total: " 265
+"Multiplicador: " 0
+false
+clj::isbn-verifier=> 
+"É letra: " false
+"É letra: " false
+"É letra: " false
+"É letra: " false
+"É letra: " false
+"É letra: " false
+"É letra: " false
+"É letra: " false
+"É letra: " false
+"É letra: " false
+false
+clj::isbn-verifier=> 
+false
+clj::isbn-verifier=> 
+"Digito: " "3"
+"Digito: " "5"
+"Digito: " "9"
+"Digito: " "8"
+"Digito: " "2"
+"Digito: " "X"
+"Digito: " "5"
+"Digito: " "0"
+"Digito: " "7"
+"Digito: " "9"
+true
+clj::isbn-verifier=> 
+"Digito: " "3"
+"Soma: " 0
+"Digito: " "5"
+"Soma: " 30
+"Digito: " "9"
+"Soma: " 75
+"Digito: " "8"
+"Soma: " 147
+"Digito: " "2"
+"Soma: " 203
+"Digito: " "X"
+"Soma: " 215
+"Digito: " "5"
+"Soma: " 265
+"Digito: " "0"
+"Soma: " 285
+"Digito: " "7"
+"Soma: " 285
+"Digito: " "9"
+"Soma: " 299
+true
+clj::isbn-verifier=> 
+"Digito: " "3"
+"Soma: " 0
+"Digito: " "5"
+"Soma: " 30
+"Digito: " "9"
+"Soma: " 75
+"Digito: " "8"
+"Soma: " 147
+"Digito: " "2"
+"Soma: " 203
+"Digito: " "X"
+"Soma: " 215
+"Digito: " "5"
+"Soma: " 265
+"Digito: " "0"
+"Soma: " 285
+"Digito: " "7"
+"Soma: " 285
+"Digito: " "9"
+"Soma: " 299
+"Calculado: " 28
+true
+clj::isbn-verifier=> 
+"Digito: " "3"
+"Soma: " 0
+"Digito: " "5"
+"Soma: " 30
+"Digito: " "9"
+"Soma: " 75
+"Digito: " "8"
+"Soma: " 147
+"Digito: " "2"
+"Soma: " 203
+"Digito: " "X"
+"Soma: " 215
+"Digito: " "5"
+"Soma: " 265
+"Digito: " "0"
+"Soma: " 285
+"Digito: " "7"
+"Soma: " 285
+"Digito: " "9"
+"Soma: " 299
+"Calculado: " 0
+true
+clj::isbn-verifier=> 
+"Digito: " "3"
+"Soma: " 0
+"Digito: " "5"
+"Soma: " 30
+"Digito: " "9"
+"Soma: " 75
+"Digito: " "8"
+"Soma: " 147
+"Digito: " "2"
+"Soma: " 203
+"Digito: " "X"
+"Soma: " 215
+"Digito: " "5"
+"Soma: " 265
+"Digito: " "0"
+"Soma: " 285
+"Digito: " "7"
+"Soma: " 285
+"Digito: " "9"
+"Soma: " 299
+"Total: " 308
+true
+clj::isbn-verifier=> 
+28
+clj::isbn-verifier=> 
+309/11
+clj::isbn-verifier=> 
+"Conta: " 0 " + (" "3" " * " 10 ")"
+"Conta: " 30 " + (" "5" " * " 9 ")"
+"Conta: " 75 " + (" "9" " * " 8 ")"
+"Conta: " 147 " + (" "8" " * " 7 ")"
+"Conta: " 203 " + (" "2" " * " 6 ")"
+"Conta: " 215 " + (" "X" " * " 5 ")"
+"Conta: " 265 " + (" "5" " * " 4 ")"
+"Conta: " 285 " + (" "0" " * " 3 ")"
+"Conta: " 285 " + (" "7" " * " 2 ")"
+"Conta: " 299 " + (" "9" " * " 1 ")"
+true
+clj::isbn-verifier=> 
+false
+clj::isbn-verifier=> 
+false
+clj::isbn-verifier=> 
+false
+clj::isbn-verifier=> 
+false
+clj::isbn-verifier=> 
