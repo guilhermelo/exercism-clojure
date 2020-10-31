@@ -1,0 +1,299 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj::user=> 
+; Syntax error compiling at (anagram.clj:4:1).
+; Unable to resolve symbol: defn in this context
+; Syntax error compiling at (anagram.clj:8:1).
+; Unable to resolve symbol: anagrams-for in this context
+clojure.lang.Compiler/analyze (Compiler.java:6808)
+clojure.lang.Compiler$InvokeExpr/parse (Compiler.java:3820)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7108)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7104)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/eval (Compiler.java:7173)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:79)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:55)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:142)
+nrepl.middleware.session/session-exec (session.clj:171)
+nrepl.middleware.session/session-exec (session.clj:170)
+java.lang.Thread/run (Thread.java:834)
+clj::anagram=> 
+; Syntax error reading source at (REPL:5:20).
+; Invalid token: s/
+clojure.main/repl (main.clj:410)
+clojure.main/repl (main.clj:409)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:79)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:55)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:142)
+nrepl.middleware.session/session-exec (session.clj:171)
+nrepl.middleware.session/session-exec (session.clj:170)
+java.lang.Thread/run (Thread.java:834)
+clj::anagram=> 
+["pal"]
+nil
+clj::anagram=> 
+["p" "a" "l"]
+nil
+clj::anagram=> 
+#{"p" "a" "l"}
+nil
+clj::anagram=> 
+#{"p" "a" "l"}
+nil
+clj::anagram=> 
+; Syntax error compiling at (anagram.clj:6:33).
+; No such namespace: s
+; Syntax error compiling at (anagram.clj:10:27).
+; No such namespace: s
+; Execution error (IllegalStateException) at anagram-test/eval7699 (form-init11871060255562652754.clj:16).
+; Attempting to call unbound fn: #'anagram-test/anagrams-for
+clojure.lang.Var$Unbound/throwArity (Var.java:45)
+anagram-test/eval7699 (form-init11871060255562652754.clj:16)
+clojure.lang.Compiler/eval (Compiler.java:7176)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:79)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:55)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:142)
+nrepl.middleware.session/session-exec (session.clj:171)
+nrepl.middleware.session/session-exec (session.clj:170)
+java.lang.Thread/run (Thread.java:834)
+clj::anagram=> 
+; Syntax error compiling at (anagram.clj:6:33).
+; No such namespace: s
+; Syntax error compiling at (anagram.clj:11:27).
+; No such namespace: s
+; Execution error (IllegalStateException) at anagram-test/eval7701 (form-init11871060255562652754.clj:19).
+; Attempting to call unbound fn: #'anagram-test/anagrams-for
+clojure.lang.Var$Unbound/throwArity (Var.java:45)
+anagram-test/eval7701 (form-init11871060255562652754.clj:19)
+clojure.lang.Compiler/eval (Compiler.java:7176)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:79)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:55)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:142)
+nrepl.middleware.session/session-exec (session.clj:171)
+nrepl.middleware.session/session-exec (session.clj:170)
+java.lang.Thread/run (Thread.java:834)
+clj::anagram=> 
+; Execution error (ClassCastException) at anagram/anagrams-for$fn (form-init11871060255562652754.clj:14).
+; class java.lang.String cannot be cast to class clojure.lang.IPersistentCollection (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IPersistentCollection is in unnamed module of loader 'app')
+clojure.core/conj (core.clj:82)
+anagram/anagrams-for (form-init11871060255562652754.clj:14)
+clojure.lang.PersistentVector/reduce (PersistentVector.java:329)
+clojure.core/reduce (core.clj:6823)
+clojure.core/reduce (core.clj:6810)
+anagram/anagrams-for (form-init11871060255562652754.clj:12)
+anagram/anagrams-for (form-init11871060255562652754.clj:10)
+anagram/eval7717 (form-init11871060255562652754.clj:19)
+clojure.lang.Compiler/eval (Compiler.java:7176)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:79)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:55)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:142)
+nrepl.middleware.session/session-exec (session.clj:171)
+nrepl.middleware.session/session-exec (session.clj:170)
+java.lang.Thread/run (Thread.java:834)
+clj::anagram=> 
+"Inner letters" #{"d" "n" "s" "a" "t"}
+; Execution error (ClassCastException) at anagram/anagrams-for$fn (form-init11871060255562652754.clj:16).
+; class java.lang.String cannot be cast to class clojure.lang.IPersistentCollection (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IPersistentCollection is in unnamed module of loader 'app')
+clojure.core/conj (core.clj:82)
+anagram/anagrams-for (form-init11871060255562652754.clj:16)
+clojure.lang.PersistentVector/reduce (PersistentVector.java:329)
+clojure.core/reduce (core.clj:6823)
+clojure.core/reduce (core.clj:6810)
+anagram/anagrams-for (form-init11871060255562652754.clj:14)
+anagram/anagrams-for (form-init11871060255562652754.clj:11)
+anagram/eval7733 (form-init11871060255562652754.clj:21)
+clojure.lang.Compiler/eval (Compiler.java:7176)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:79)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:55)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:142)
+nrepl.middleware.session/session-exec (session.clj:171)
+nrepl.middleware.session/session-exec (session.clj:170)
+java.lang.Thread/run (Thread.java:834)
+clj::anagram=> 
+"Inner letters" ["s" "t" "a" "n" "d"]
+; Execution error (ClassCastException) at anagram/anagrams-for$fn (form-init11871060255562652754.clj:17).
+; class java.lang.String cannot be cast to class clojure.lang.IPersistentCollection (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IPersistentCollection is in unnamed module of loader 'app')
+clojure.core/conj (core.clj:82)
+anagram/anagrams-for (form-init11871060255562652754.clj:17)
+clojure.lang.PersistentVector/reduce (PersistentVector.java:329)
+clojure.core/reduce (core.clj:6823)
+clojure.core/reduce (core.clj:6810)
+anagram/anagrams-for (form-init11871060255562652754.clj:15)
+anagram/anagrams-for (form-init11871060255562652754.clj:12)
+anagram/eval7749 (form-init11871060255562652754.clj:22)
+clojure.lang.Compiler/eval (Compiler.java:7176)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:79)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:55)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:142)
+nrepl.middleware.session/session-exec (session.clj:171)
+nrepl.middleware.session/session-exec (session.clj:170)
+java.lang.Thread/run (Thread.java:834)
+clj::anagram=> 
+#'anagram/anagrams-for
+clj::anagram=> 
+#{"n" "a" "t"}
+"Inner letters" ["s" "t" "a" "n" "d"]
+; Execution error (ClassCastException) at anagram/anagrams-for$fn (form-init11871060255562652754.clj:18).
+; class java.lang.String cannot be cast to class clojure.lang.IPersistentCollection (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IPersistentCollection is in unnamed module of loader 'app')
+clojure.core/conj (core.clj:82)
+anagram/anagrams-for (form-init11871060255562652754.clj:18)
+clojure.lang.PersistentVector/reduce (PersistentVector.java:329)
+clojure.core/reduce (core.clj:6823)
+clojure.core/reduce (core.clj:6810)
+anagram/anagrams-for (form-init11871060255562652754.clj:16)
+anagram/anagrams-for (form-init11871060255562652754.clj:13)
+anagram/eval7779 (form-init11871060255562652754.clj:23)
+clojure.lang.Compiler/eval (Compiler.java:7176)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:79)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:55)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:142)
+nrepl.middleware.session/session-exec (session.clj:171)
+nrepl.middleware.session/session-exec (session.clj:170)
+java.lang.Thread/run (Thread.java:834)
+clj::anagram=> 
+#{"n" "a" "t"}
+"Inner letters" ["t" "a" "n"]
+#{"n" "a" "t"}
+"Inner letters" ["s" "t" "a" "n" "d"]
+#{"n" "a" "t"}
+"Inner letters" ["a" "t"]
+["tan" "stand" "at"]
+clj::anagram=> 
+; Execution error (IllegalArgumentException) at anagram/contain-all-letters (form-init11871060255562652754.clj:7).
+; Key must be integer
+clojure.lang.APersistentVector/invoke (APersistentVector.java:294)
+clojure.core/every? (core.clj:2681)
+clojure.core/every? (core.clj:2672)
+anagram/contain-all-letters (form-init11871060255562652754.clj:7)
+anagram/contain-all-letters (form-init11871060255562652754.clj:5)
+anagram/anagrams-for (form-init11871060255562652754.clj:13)
+clojure.lang.PersistentVector/reduce (PersistentVector.java:343)
+clojure.core/reduce (core.clj:6827)
+clojure.core/reduce (core.clj:6810)
+anagram/anagrams-for (form-init11871060255562652754.clj:12)
+anagram/anagrams-for (form-init11871060255562652754.clj:9)
+anagram/eval7811 (form-init11871060255562652754.clj:19)
+clojure.lang.Compiler/eval (Compiler.java:7176)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:79)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:55)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:142)
+nrepl.middleware.session/session-exec (session.clj:171)
+nrepl.middleware.session/session-exec (session.clj:170)
+java.lang.Thread/run (Thread.java:834)
+clj::anagram=> 
+[]
+clj::anagram=> 
+false
+clj::anagram=> 
+false
+clj::anagram=> 
+false
+clj::anagram=> 
+false
+clj::anagram=> 
+false
+clj::anagram=> 
+false
+clj::anagram=> 
+["a" "n" "t"]
+false
+clj::anagram=> 
+["a" "n" "t"]
+; Syntax error (ArityException) compiling at (anagram.clj:20:3).
+; Wrong number of args (3) passed to: clojure.core/for
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7114)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7104)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7094)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/access$300 (Compiler.java:38)
+clojure.lang.Compiler$DefExpr$Parser/parse (Compiler.java:596)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7106)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/eval (Compiler.java:7180)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:79)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:55)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:142)
+nrepl.middleware.session/session-exec (session.clj:171)
+nrepl.middleware.session/session-exec (session.clj:170)
+java.lang.Thread/run (Thread.java:834)
+clj::anagram=> 
+["tan" "stand" "at"]
+clj::anagram=> 
+["tan"]
+clj::anagram=> 
+["tan"]
+clj::anagram=> 
+["tan"]
+clj::anagram=> 
+["tan"]
+clj::anagram=> 
