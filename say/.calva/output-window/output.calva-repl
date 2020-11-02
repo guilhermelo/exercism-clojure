@@ -1,0 +1,44 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj::user=> 
+#'say/number
+clj::say=> 
+"Teen to nineteen" 14
+"fourteen"
+clj::say=> 
+; Syntax error compiling at (say.clj:53:26).
+; No such namespace: s
+; Execution error (IllegalStateException) at say-test/eval7694 (form-init259152933188407142.clj:57).
+; Attempting to call unbound fn: #'say-test/separated-and-translate
+clojure.lang.Var$Unbound/throwArity (Var.java:45)
+say-test/eval7694 (form-init259152933188407142.clj:57)
+clojure.lang.Compiler/eval (Compiler.java:7176)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:79)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:55)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:142)
+nrepl.middleware.session/session-exec (session.clj:171)
+nrepl.middleware.session/session-exec (session.clj:170)
+java.lang.Thread/run (Thread.java:834)
+clj::say=> 
+(("4" "3" "2"))
+nil
+clj::say=> 
