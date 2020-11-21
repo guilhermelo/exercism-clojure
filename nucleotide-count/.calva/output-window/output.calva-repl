@@ -1,0 +1,244 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj::user=> 
+; Syntax error compiling at (nucleotide_count.clj:10:1).
+; Unable to resolve symbol: count-of-nucleotide-in-strand in this context
+clojure.lang.Compiler/analyze (Compiler.java:6808)
+clojure.lang.Compiler$InvokeExpr/parse (Compiler.java:3820)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7108)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7104)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/eval (Compiler.java:7173)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:79)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:55)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:142)
+nrepl.middleware.session/session-exec (session.clj:171)
+nrepl.middleware.session/session-exec (session.clj:170)
+java.lang.Thread/run (Thread.java:834)
+clj::nucleotide-count=> 
+("" "" "" "" "" "" "" "" "" "" "" "" "" "")
+nil
+clj::nucleotide-count=> 
+("G" "G" "G" "G" "G" "T" "A" "A" "C" "C" "C" "G" "G")
+nil
+clj::nucleotide-count=> 
+("T")
+nil
+clj::nucleotide-count=> 
+1
+clj::nucleotide-count=> 
+false
+clj::nucleotide-count=> 
+; Execution error (ClassCastException) at nucleotide-count/eval7763 (form-init3489422749642219595.clj:12).
+; class java.lang.String cannot be cast to class java.lang.Number (java.lang.String and java.lang.Number are in module java.base of loader 'bootstrap')
+clojure.lang.RT/charCast (RT.java:1056)
+nucleotide-count/eval7763 (form-init3489422749642219595.clj:12)
+clojure.lang.Compiler/eval (Compiler.java:7176)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:79)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:55)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:142)
+nrepl.middleware.session/session-exec (session.clj:171)
+nrepl.middleware.session/session-exec (session.clj:170)
+java.lang.Thread/run (Thread.java:834)
+clj::nucleotide-count=> 
+#'nucleotide-count/nucleotide-counts
+clj::nucleotide-count=> 
+\A
+nil
+clj::nucleotide-count=> 
+()
+nil
+clj::nucleotide-count=> 
+()
+nil
+clj::nucleotide-count=> 
+(
+; Execution error (ClassCastException) at nucleotide-count/count-of-nucleotide-in-strand$fn (form-init3489422749642219595.clj:5).
+; class clojure.lang.PersistentList cannot be cast to class clojure.lang.IFn (clojure.lang.PersistentList and clojure.lang.IFn are in unnamed module of loader 'app')
+nucleotide-count/count-of-nucleotide-in-strand (form-init3489422749642219595.clj:5)
+clojure.core/map (core.clj:2755)
+clojure.lang.LazySeq/sval (LazySeq.java:42)
+clojure.lang.LazySeq/seq (LazySeq.java:51)
+clojure.lang.RT/seq (RT.java:531)
+clojure.core/seq (core.clj:137)
+clojure.core/filter (core.clj:2809)
+clojure.lang.LazySeq/sval (LazySeq.java:42)
+clojure.lang.LazySeq/seq (LazySeq.java:51)
+clojure.lang.RT/seq (RT.java:531)
+clojure.core/seq (core.clj:137)
+clojure.core/print-sequential (core_print.clj:53)
+clojure.core/fn (core_print.clj:174)
+clojure.lang.MultiFn/invoke (MultiFn.java:234)
+clojure.core/pr-on (core.clj:3674)
+clojure.core/pr (core.clj:3677)
+clojure.core/apply (core.clj:665)
+clojure.core/prn (core.clj:3714)
+nucleotide-count/count-of-nucleotide-in-strand (form-init3489422749642219595.clj:7)
+nucleotide-count/count-of-nucleotide-in-strand (form-init3489422749642219595.clj:3)
+nucleotide-count/eval7799 (form-init3489422749642219595.clj:13)
+clojure.lang.Compiler/eval (Compiler.java:7176)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:79)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:55)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:142)
+nrepl.middleware.session/session-exec (session.clj:171)
+nrepl.middleware.session/session-exec (session.clj:170)
+java.lang.Thread/run (Thread.java:834)
+clj::nucleotide-count=> 
+(
+; Execution error (ClassCastException) at nucleotide-count/count-of-nucleotide-in-strand$fn (form-init3489422749642219595.clj:5).
+; class clojure.lang.PersistentList cannot be cast to class clojure.lang.IFn (clojure.lang.PersistentList and clojure.lang.IFn are in unnamed module of loader 'app')
+nucleotide-count/count-of-nucleotide-in-strand (form-init3489422749642219595.clj:5)
+clojure.core/map (core.clj:2755)
+clojure.lang.LazySeq/sval (LazySeq.java:42)
+clojure.lang.LazySeq/seq (LazySeq.java:51)
+clojure.lang.RT/seq (RT.java:531)
+clojure.core/seq (core.clj:137)
+clojure.core/filter (core.clj:2809)
+clojure.lang.LazySeq/sval (LazySeq.java:42)
+clojure.lang.LazySeq/seq (LazySeq.java:51)
+clojure.lang.RT/seq (RT.java:531)
+clojure.core/seq (core.clj:137)
+clojure.core/print-sequential (core_print.clj:53)
+clojure.core/fn (core_print.clj:174)
+clojure.lang.MultiFn/invoke (MultiFn.java:234)
+clojure.core/pr-on (core.clj:3674)
+clojure.core/pr (core.clj:3677)
+clojure.core/apply (core.clj:665)
+clojure.core/prn (core.clj:3714)
+nucleotide-count/count-of-nucleotide-in-strand (form-init3489422749642219595.clj:7)
+nucleotide-count/count-of-nucleotide-in-strand (form-init3489422749642219595.clj:3)
+nucleotide-count/eval7819 (form-init3489422749642219595.clj:13)
+clojure.lang.Compiler/eval (Compiler.java:7176)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:79)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:55)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:142)
+nrepl.middleware.session/session-exec (session.clj:171)
+nrepl.middleware.session/session-exec (session.clj:170)
+java.lang.Thread/run (Thread.java:834)
+clj::nucleotide-count=> 
+; Execution error (IllegalArgumentException) at nucleotide-count/count-of-nucleotide-in-strand$fn (form-init3489422749642219595.clj:5).
+; No matching method charAt found taking 1 args for class java.lang.Character
+clojure.lang.Reflector/invokeMatchingMethod (Reflector.java:127)
+clojure.lang.Reflector/invokeInstanceMethod (Reflector.java:102)
+nucleotide-count/count-of-nucleotide-in-strand (form-init3489422749642219595.clj:5)
+clojure.core/filter (core.clj:2821)
+clojure.lang.LazySeq/sval (LazySeq.java:42)
+clojure.lang.LazySeq/seq (LazySeq.java:51)
+clojure.lang.RT/seq (RT.java:531)
+clojure.lang.RT/countFrom (RT.java:646)
+clojure.lang.RT/count (RT.java:639)
+nucleotide-count/count-of-nucleotide-in-strand (form-init3489422749642219595.clj:6)
+nucleotide-count/count-of-nucleotide-in-strand (form-init3489422749642219595.clj:3)
+nucleotide-count/eval7843 (form-init3489422749642219595.clj:12)
+clojure.lang.Compiler/eval (Compiler.java:7176)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:79)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:55)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:142)
+nrepl.middleware.session/session-exec (session.clj:171)
+nrepl.middleware.session/session-exec (session.clj:170)
+java.lang.Thread/run (Thread.java:834)
+clj::nucleotide-count=> 
+; Execution error (IllegalArgumentException) at nucleotide-count/count-of-nucleotide-in-strand$fn (form-init3489422749642219595.clj:5).
+; No matching method charAt found taking 1 args for class java.lang.Character
+clojure.lang.Reflector/invokeMatchingMethod (Reflector.java:127)
+clojure.lang.Reflector/invokeInstanceMethod (Reflector.java:102)
+nucleotide-count/count-of-nucleotide-in-strand (form-init3489422749642219595.clj:5)
+clojure.core/filter (core.clj:2821)
+clojure.lang.LazySeq/sval (LazySeq.java:42)
+clojure.lang.LazySeq/seq (LazySeq.java:51)
+clojure.lang.RT/seq (RT.java:531)
+clojure.lang.RT/countFrom (RT.java:646)
+clojure.lang.RT/count (RT.java:639)
+nucleotide-count/count-of-nucleotide-in-strand (form-init3489422749642219595.clj:6)
+nucleotide-count/count-of-nucleotide-in-strand (form-init3489422749642219595.clj:3)
+nucleotide-count/eval7860 (form-init3489422749642219595.clj:12)
+clojure.lang.Compiler/eval (Compiler.java:7176)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:79)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:55)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:142)
+nrepl.middleware.session/session-exec (session.clj:171)
+nrepl.middleware.session/session-exec (session.clj:170)
+java.lang.Thread/run (Thread.java:834)
+clj::nucleotide-count=> 
+\A
+clj::nucleotide-count=> 
+(\A \B \C)
+clj::nucleotide-count=> 
+1
+clj::nucleotide-count=> 
+0
+clj::nucleotide-count=> 
+; Execution error at nucleotide-count/count-of-nucleotide-in-strand (form-init3489422749642219595.clj:11).
+; There's no X in this strand
+nucleotide-count/count-of-nucleotide-in-strand (form-init3489422749642219595.clj:11)
+nucleotide-count/count-of-nucleotide-in-strand (form-init3489422749642219595.clj:3)
+nucleotide-count/eval7953 (form-init3489422749642219595.clj:17)
+clojure.lang.Compiler/eval (Compiler.java:7176)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:79)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:55)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:142)
+nrepl.middleware.session/session-exec (session.clj:171)
+nrepl.middleware.session/session-exec (session.clj:170)
+java.lang.Thread/run (Thread.java:834)
+clj::nucleotide-count=> 
+true
+clj::nucleotide-count=> 
+{\A 0, \T 0, \C 0, \G 8}
+clj::nucleotide-count=> 
+{\A 0, \T 0, \C 0, \G 8}
+clj::nucleotide-count=> 
+{\A 1, \G 1, \D 2, \B 1, \C 1, \J 1}
+clj::nucleotide-count=> 
