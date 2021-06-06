@@ -1,0 +1,101 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj::user=> 
+0
+clj::hamming=> 
+7
+clj::hamming=> 
+0
+clj::hamming=> 
+3
+clj::hamming=> 
+nil
+clj::hamming=> 
+1
+clj::hamming=> 
+(true true false true true)
+clj::hamming=> 
+"Elapsed time: 0.151234 msecs"
+"Elapsed time: 0.402085 msecs"
+0
+clj::hamming=> 
+"Elapsed time: 0.223148 msecs"
+0
+"Elapsed time: 0.190215 msecs"
+0
+nil
+clj::hamming=> 
+"Elapsed time: 0.132555 msecs"
+"Minha: " 0
+"Elapsed time: 0.07186 msecs"
+"Outra: " 0
+nil
+clj::hamming=> 
+"Elapsed time: 0.122546 msecs"
+"Minha: " 0
+"Elapsed time: 0.073994 msecs"
+"Outra: " 0
+nil
+clj::hamming=> 
+"Elapsed time: 0.142456 msecs"
+"Minha: " 0
+"Elapsed time: 0.076043 msecs"
+"Outra: " 0
+nil
+clj::hamming=> 
+"Elapsed time: 0.711558 msecs"
+"Minha: " 0
+"Elapsed time: 0.1546 msecs"
+"Outra: " 0
+nil
+clj::hamming=> 
+"Elapsed time: 0.252694 msecs"
+"Minha: " 0
+"Elapsed time: 0.105343 msecs"
+"Outra: " 0
+nil
+clj::hamming=> 
+"Elapsed time: 0.180131 msecs"
+"Minha: " 0
+"Elapsed time: 0.121139 msecs"
+"Outra: " 0
+nil
+clj::hamming=> 
+"Elapsed time: 0.132539 msecs"
+"Minha: " 0
+"Elapsed time: 0.104042 msecs"
+"Outra: " 0
+nil
+clj::hamming=> 
+"Elapsed time: 0.121034 msecs"
+"Minha: " 0
+"Elapsed time: 0.133505 msecs"
+"Outra: " 0
+nil
+clj::hamming=> 
+"Elapsed time: 0.505608 msecs"
+"Minha: " 0
+"Elapsed time: 0.092243 msecs"
+"Outra: " 0
+nil
+clj::hamming=> 
+"Elapsed time: 0.120668 msecs"
+"Minha: " 0
+"Elapsed time: 0.137258 msecs"
+"Outra: " 0
+nil
+clj::hamming=> 
